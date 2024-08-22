@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+     <!-- Link:Tailwind css and DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- font:google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+      
+    <!-- Tailwind css  configuration -->
+    <!-- <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary:'rgb(139, 195, 74)'
+                secondary:'#da373d',
+                body:'rgb(248, 246, 243)'
+                body_neutral:
+
+            
+                {
+                   fontFamily: {
+                    manrope:'manrope'
+                    }
+              backgroundImage{
+
+                    }
+              
+                }
+            
+            }
+        }
+          }
+        
+        }
+      </script> -->
+   
+
+
+</head>
+<body class="">
+       
+  <!-- header nav pat -->
+  
+        <header>
+
+            <nav>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                   
+                      <a class="btn btn-ghost text-xl px-20 ">Rinterio</a>
+                  </div>
+                    <div class="navbar-center hidden lg:flex">
+                       
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                          <a>Services</a>
+                        
+                        </li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>ContactUs</a></li>
+                      </ul>
+                             
+                  
+                      
+                  </div>
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-16">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" /> 
+                        </svg> 
+                       </div> 
+                       <div class="navbar-end hidden lg:flex mx-14">
+                    <a class="btn w-40  bg-[#ABEF5F]">Button</a>
+                    
+                   </div>
+                  
+                    </div>
+                  
+                 <div class="" >
+                  
+                  <img class="mx-auto my-10"  src="./assets/banner.png" alt="">
+              
+                  <h1 class=" text-center text-5xl font-bold">A barn house of this design has a <br> striking appearance</h1>
+                 
+                  <br>
+                  <p class="text-center ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, 
+                    sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                 </div>
+                 <br>
+                 <div class="text-center">
+                  <a class="btn w-40  bg-[#ABEF5F]">Button</a>
+                  
+                 </div>
+            </nav>
+  
+        </header>
+        <br>
+        <br>
+        <!-- main hero pat     -->
+
+        <main>
+          
+          <section>
+            <!-- hero pat -->
+             <div class="hero bg-base-200 flex h-max  flex-col md:flex-row items-center justify-between p-6 ">
+              <div class=" text-content">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQV
+                R4nO2by2oUQRSGv0lEzdbLA7hQxDgRBkXxAiK4UR9gZpIIbhIhKxW8ZCEdUXChLrzAQEQHlGSjgvguIngJIgoSF6LoarSl4ASOxfRMT6e6pyddPxzohK6/
+                z/mr6nRV9Rnw8PDw8OiIEjAO1OQ6S4wAR4Ap4CKwM+PnYwJuAKFYIyMR9gGLwG/1bGNfgCH6FHyYkQg32jxzxT5lNQpLEcFnIcJn61lvgWfANWB7hK/XgVfA
+                7iyCD1MWYQb4KFPgcIz79yufvgF7XAe/HHGdZU7ohC3AV+WTEW9rEqIS8MAKcB6YU38HwH3rnodZJqYI7AV+KJ8WXPR8Q/4fWAJ0urefOGH5dCBuw1KXgGwB4r
+                SJi+PAXVfJC3ip/HkSt1G9SyDtBIgSwXDFxUbgp7R7jRuYhdIv4bwXt9F4l16MEqCdCNUenD2k2r3BHcaAM7KKjIWSOB611O0kgG5f7XEKTCnep+QYQRcBkuKy
+                4r1JAQUIUuJ1jsALQCo9Na14TT5wiW1iuR4B64FLss83165wDGiJHS3UXBVcVf6a68IJELj2N/AC4EdA6KcAznPADuAD8D7iqCspZtWIvZLnHDDr2lEl7DsxJ8
+                IGfiWI3wuEfjOE3w2GfjvMQJwHjMiXInOcv6GIb4EZxXs2z45OKt6JIm6GhiTwCcdflgZGgLTgBcCPAAo9BaZdH7YGAyaA88PWYMAEcI4gxdfgpFi/Cyz6IsB
+                pxWtEyC0uKEdvOeS9rXjPk2PUVlN70wGLCesKMsdB5ag5xHSFpST1PP04bF0n9XcrzlYccFas0rthcn7Y2lSkzx3wvVB8jxiApD0G/BHSv1KSlhSnlIMthxVi
+                qa9bmor4O1BOwFGWtqvp/W7l+3FqmupJyv83y8cGLcLJHnteB2+4NtE76g6r2uq9PnzUCiKU+dwpMVasOb8inuFKAl3Wt9q6xmoSB0blFRNatiTrhDtiC9ar
+                Tvf8roTB97uy9b/p0FSJMY61ZM4nGfa5rW0uA4+tdYJty3KP62wfFZiubp/LqrB7WFZzJrOeE6vJjxlcLnLWwu8bnKPU5jcM7Ww+79vuNEVY08F3E6EQwUeJU
+                KjgEfRUvv8PHsAXeOIschgAAAAASUVORK5CYII=">
+                <button class="btn "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACX
+                  BIWXMAAAsTAAALEwEAmpwYAAAAQUlEQVR4nGNgGAWkgoUMDAzWDBQAZwYGhhcMDAymlBjiDjXECF3iP4
+                  n4EgMDAyNVXUBsGLykJAwWUhoLo4ABEwAAedIUA2M3p4IAAAAASUVORK5CYII="> About Us</button>
+                <h1 class="text-5xl font-bold ">We design thoughtful,<br> liveable spaces</h1>
+                <p class="py-6">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <!--  -->
+          
+                <div class=" bg-white flex h-auto w-50%">
+                  <img
+                  src="./assets/commercial.png"
+                  class="max-w-sm rounded-lg shadow-2xl" />
+              <div>
+  
+                  <h1 class=" font-bold">Box Office News!</h1>
+                  <p class="">
+                    Provident cupiditate voluptatem et in.
+                  </p>
+             </div>
+            
+                </div>
+<br>
+               <div class="bg-white flex w-auto h-auto">
+                <img
+                src="./assets/residential.png"
+                class="max-w-sm rounded-lg shadow-2xl h-auto" />
+              <div>
+
+                <h1 class=" font-bold">Box Office News!</h1>
+                <p class="">
+                  Provident cupiditate voluptatem et in. 
+                </p>
+              
+              </div>
+            
+          
+              </div>
+              </div>
+        
+                <!--  -->
+
+               
+              
+                   <!--  -->
+                   
+                 
+                
+              <!--  -->
+              <div class=" imge-content mt-6 md:mt-0 h-52 md:h-auto">
+                <img
+                src="./assets/Rectangle.png"
+                 class="max-w-xs md:max-w-sm rounded-lg shadow-2xl h-full" /> 
+            
+             </div>
+              
+          
+              
+                
+        
+            </div>
+          </section>
+        </main>
+      
+</body>
+</html>
